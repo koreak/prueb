@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<Folder>
+  <name>lotes cemosa_index Index</name>
+  <open>1</open>
+  <NetworkLink>
+    <Region>
+      <LatLonAltBox>
+        <north>18.81847744497512300</north>
+        <south>18.78931118620421300</south>
+        <east>-99.15047771303039800</east>
+        <west>-99.18478976865621600</west>
+        <minAltitude>0</minAltitude>
+        <maxAltitude>0</maxAltitude>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>1024</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+        <minFadeExtent>0</minFadeExtent>
+        <maxFadeExtent>0</maxFadeExtent>
+      </Lod>
+    </Region>
+    <name>lotes cemosa</name>
+    <Link>
+      <href>lotes cemosa.KMZ</href>
+    </Link>
+  </NetworkLink>
+</Folder>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7F000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+    <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+  </Style>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description><![CDATA[<a href="lotes cemosa.KMZ">Click Here to Open Tile</a>]]></description>
+      <name>lotes cemosa</name>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -99.1847897687,18.8184466292,0
+              -99.1847579672,18.7893111862,0
+              -99.1504777130,18.7893419508,0
+              -99.1505036141,18.8184774450,0
+              -99.1847897687,18.8184466292,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
