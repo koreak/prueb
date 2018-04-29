@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<Folder>
+  <name>TEPETZINGO P7_index Index</name>
+  <open>1</open>
+  <NetworkLink>
+    <Region>
+      <LatLonAltBox>
+        <north>18.82009381560653300</north>
+        <south>18.79096815739824700</south>
+        <east>-99.14825012552687200</east>
+        <west>-99.19003382288455800</west>
+        <minAltitude>0</minAltitude>
+        <maxAltitude>0</maxAltitude>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>1024</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+        <minFadeExtent>0</minFadeExtent>
+        <maxFadeExtent>0</maxFadeExtent>
+      </Lod>
+    </Region>
+    <name>TEPETZINGO P7</name>
+    <Link>
+      <href>TEPETZINGO P7.KMZ</href>
+    </Link>
+  </NetworkLink>
+</Folder>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7F000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+    <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+  </Style>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description><![CDATA[<a href="TEPETZINGO P7.KMZ">Click Here to Open Tile</a>]]></description>
+      <name>TEPETZINGO P7</name>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -99.1900338229,18.8200938156,0
+              -99.1900338229,18.7909681574,0
+              -99.1482501255,18.7909681574,0
+              -99.1482501255,18.8200938156,0
+              -99.1900338229,18.8200938156,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
